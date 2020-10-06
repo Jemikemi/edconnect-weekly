@@ -1,0 +1,90 @@
+
+
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: blue;
+}
+#navbar{
+    margin: 10px;
+	
+}
+#navbar li{
+  float:left;
+}
+#navbar a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color: blue;
+}
+#navbar a:active {
+    background-color: transparent;
+    color: white;
+  }
+#navbar a:hover{
+      background-color: black;
+  }
+
+.project-list{
+    display: flex;
+    
+}
+.box{
+width: 70%;
+height: 200px;
+border: 5px;
+padding: 40px;
+background-color: lightgrey;
+margin:auto;
+}
+.project-list{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+.project-list ul{
+    background-color: white;
+    flex: 1;
+    margin: 10px;
+    border-color: lightgray;
+}
+.project-list h3{
+    color:blue ;
+}
+.login{
+    width: 50%;
+height: 200px;
+border: 5px;
+padding: 40px;
+background-color: white;
+   margin: auto; 
+}
+.register_container {
+    display: flex;
+ justify-content: space-between;
+  }
+  .register_item {
+    width: 50%;
+    height: 50px;
+    margin-bottom: 2%;
+  }
+  .register_item input{
+      flex: 1;
+  }
+  .viewprojectcontainer{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+  }
+  .viewprojectcontainer ul{
+      flex: 1;
+      background-color: white;
+  }
+ 
